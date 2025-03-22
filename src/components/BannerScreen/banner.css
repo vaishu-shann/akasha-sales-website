@@ -1,0 +1,58 @@
+.banner-section {
+  max-width: 1500px;
+  width: 100%;
+  margin: 75px auto;
+  /* padding: 20px; */
+}
+.banner-head {
+  font-weight: 600;
+  line-height: 94%;
+  letter-spacing: 0%;
+  text-align: center;
+  font-size: 94px;
+  background: linear-gradient(
+    92.75deg,
+    #00d3a9 -8.27%,
+    #007e65 35.07%,
+    #084438 55.92%,
+    #00b08d 85.28%,
+    #001724 106.41%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-sub-head {
+  font-weight: 500;
+  font-size: 35.06px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 25px;
+}
+.banner-main-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 80px auto 30px;
+}
+.banner-sub-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-sub-img {
+  width: 260px;
+  height: 170px;
+  border-radius: 25px;
+  object-fit: cover;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+.sub-img-desc {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}

@@ -1,0 +1,106 @@
+.w-s-sec {
+}
+.single-sec-ws {
+  /* max-width: 1500px; */
+  width: 97%;
+  padding: 40px 20px;
+  background: linear-gradient(90deg, #ffffff 0%, #c2ccd1 100%);
+  border: 1px solid #eeeeee;
+  backdrop-filter: blur(16.299999237060547px);
+  margin: 50px auto 20px;
+  box-shadow: 0px 6px 20px 0px #00000029;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-no {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec-left,
+.sec-right {
+  width: 50%;
+}
+.number-w-s {
+}
+.name-w-s {
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 120px;
+  letter-spacing: 0%;
+}
+.sub-name-w-s {
+  font-weight: 570;
+  font-size: 80px;
+  line-height: 110px;
+  letter-spacing: 0%;
+}
+.right-head {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 40px;
+}
+.w-s-right-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: linear-gradient(90deg, #efefef 0%, #d5dfe4 100%);
+  border: 1px solid #e1e1e1;
+  box-shadow: 4px 6px 10.7px 0px #0000001f;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px 0 0;
+  width: 70%;
+}
+.card-number {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-right: 10px;
+}
+.card-break {
+  border: 1px solid #aaaaaa;
+  height: 25px;
+}
+.card-desc {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 35px;
+  letter-spacing: 0%;
+  margin-left: 10px;
+}
+.number-w-s-2 {
+  width: 200px;
+}
+.metamask-img {
+}
+.arrow-img {
+    margin-left: 20px;
+}
+.w-s-right-card2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: linear-gradient(90deg, #efefef 0%, #d5dfe4 100%);
+  border: 1px solid #e1e1e1;
+  box-shadow: 4px 6px 10.7px 0px #0000001f;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px 50px 0;
+  width: max-content;
+  cursor: pointer;
+}
+.coming-soon-label{
+    margin-bottom: -63px;
+}
+.label-css{
+    width: 76.5%;
+    display: flex;
+    align-items: normal;
+    justify-content: end;
+}

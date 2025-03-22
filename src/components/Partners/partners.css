@@ -1,0 +1,26 @@
+.partner-section{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    width: 95%;
+    margin:50px auto;
+}
+.partner-head{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+     margin-top: 50px;
+}
+.partner-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto 30px;
+}
+.partner-img{
+    width: 250px;
+    height: auto;
+}
