@@ -2,7 +2,6 @@
   background: #F7F7F766;
   border: 2px solid #FFFFFF;
   backdrop-filter: blur(7.800000190734863px)
-
 }
 
 .navbar-flex {
@@ -36,4 +35,22 @@
   letter-spacing: 0%;
   text-align: center;
   cursor: pointer;
+}
+
+@media screen and (max-width:1024px) {
+  .navbar-logo {
+    height: 38px;
+    width: auto;
+  }
+
+  .navbar-cta {
+    width: 137.04px;
+    height: 34.78px;
+    font-size: 14px;
+  }
+
+  .navbar-flex {
+    margin: 20px auto;
+    width: 94%;
+  }
 }

@@ -1,5 +1,5 @@
-.w-s-sec {
-}
+.w-s-sec {}
+
 .single-sec-ws {
   /* max-width: 1500px; */
   width: 97%;
@@ -13,29 +13,34 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .left-no {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .sec-left,
 .sec-right {
   width: 50%;
 }
-.number-w-s {
-}
+
+.number-w-s {}
+
 .name-w-s {
   font-weight: 600;
   font-size: 100px;
   line-height: 120px;
   letter-spacing: 0%;
 }
+
 .sub-name-w-s {
   font-weight: 570;
   font-size: 80px;
   line-height: 110px;
   letter-spacing: 0%;
 }
+
 .right-head {
   font-weight: 600;
   font-size: 36px;
@@ -43,6 +48,7 @@
   letter-spacing: 0%;
   margin-bottom: 40px;
 }
+
 .w-s-right-card {
   display: flex;
   flex-direction: row;
@@ -55,6 +61,7 @@
   margin: 20px 0 0;
   width: 70%;
 }
+
 .card-number {
   font-family: Montserrat;
   font-weight: 700;
@@ -63,10 +70,12 @@
   letter-spacing: 0%;
   margin-right: 10px;
 }
+
 .card-break {
   border: 1px solid #aaaaaa;
   height: 25px;
 }
+
 .card-desc {
   font-weight: 500;
   font-size: 22px;
@@ -74,14 +83,17 @@
   letter-spacing: 0%;
   margin-left: 10px;
 }
+
 .number-w-s-2 {
   width: 200px;
 }
-.metamask-img {
-}
+
+.metamask-img {}
+
 .arrow-img {
-    margin-left: 20px;
+  margin-left: 20px;
 }
+
 .w-s-right-card2 {
   display: flex;
   flex-direction: row;
@@ -95,12 +107,93 @@
   width: max-content;
   cursor: pointer;
 }
-.coming-soon-label{
-    margin-bottom: -63px;
+
+.coming-soon-label {
+  margin-bottom: -63px;
 }
-.label-css{
-    width: 76.5%;
+
+.label-css {
+  width: 76.5%;
+  display: flex;
+  align-items: normal;
+  justify-content: end;
+}
+
+@media (min-width:1024px) and (max-width:1300px) {
+  .single-sec-ws {
+    width: 96%;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .single-sec-ws {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .name-w-s {
+    font-size: 58px;
+    line-height: 50px;
+  }
+
+  .sub-name-w-s {
+    font-size: 40px;
+    line-height: 80px;
+
+  }
+
+  .number-w-s {
+    height: 150px;
+  }
+
+  .number-w-s-2 {
+    height: 150px;
+    width: auto;
+
+  }
+
+  .sec-left,
+  .sec-right {
+    width: 99%;
+    margin: auto;
+  }
+
+  .right-head {
+    font-size: 19px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .w-s-right-card {
+    width: 90%;
+  }
+
+  .single-sec-ws {
+    width: 88%;
+
+  }
+
+  .card-desc {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .w-s-right-card2 {
+    margin: 20px 20px 0;
+  }
+
+  .label-css {
+    width: 106%;
     display: flex;
     align-items: normal;
     justify-content: end;
+    margin-top: 20px;
+  }
+
+  .coming-soon-label {
+    height: 50px;
+  }
 }
